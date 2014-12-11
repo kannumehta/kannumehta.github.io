@@ -1,0 +1,274 @@
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href='http://fonts.googleapis.com/css?family=Raleway:400,300' rel='stylesheet' type='text/css'>
+    <title>GraduationStreet</title>
+    <link href="/assets/application_web-a37a1be0591c709bfbe6fc75cf092d5e.css?body=1" media="screen" rel="stylesheet" type="text/css" />
+<link href="/assets/web/main-c36fc8983b33bc5ef607ba37b5a4ce5c.css?body=1" media="screen" rel="stylesheet" type="text/css" />
+    <!--link href='http://code.ionicframework.com/ionicons/2.0.0/css/ionicons.min.css' rel='stylesheet' type='text/css'-->
+    <!-- Angular from Google CDN -->
+    <script type="text/javascript">
+  !function(a,b){a("Keen","https://d26b395fwzu5fz.cloudfront.net/3.1.0/keen.min.js",b)}(function(a,b,c){var d,e,f;c["_"+a]={},c[a]=function(b){c["_"+a].clients=c["_"+a].clients||{},c["_"+a].clients[b.projectId]=this,this._config=b},c[a].ready=function(b){c["_"+a].ready=c["_"+a].ready||[],c["_"+a].ready.push(b)},d=["addEvent","setGlobalProperties","trackExternalLink","on"];for(var g=0;g<d.length;g++){var h=d[g],i=function(a){return function(){return this["_"+a]=this["_"+a]||[],this["_"+a].push(arguments),this}};c[a].prototype[h]=i(h)}e=document.createElement("script"),e.async=!0,e.src=b,f=document.getElementsByTagName("script")[0],f.parentNode.insertBefore(e,f)},this);
+    </script>
+
+    <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.3.5/angular.min.js"></script>
+    <script data-cfasync="false" src="/assets/angular-rails-templates-8d077bcd7be5323d62307337ab711a65.js?body=1"></script>
+<script data-cfasync="false" src="/assets/web/angular/app-f5add5f60d60de85ae13e75f1dfe93c5.js?body=1"></script>
+<script data-cfasync="false" src="/assets/web/angular/controllers/KeenDataCollectorController-25dc5846776225d372e3f54c3ea7c5d8.js?body=1"></script>
+<script data-cfasync="false" src="/assets/web/angular/controllers/LoginController-4ffb5bb37957dee0b69a0aeba6ef573b.js?body=1"></script>
+<script data-cfasync="false" src="/assets/web/angular/routes-6e9473a6bb158d3c12d8a1456c737af5.js?body=1"></script>
+<script data-cfasync="false" src="/assets/application_web-13c5d09c31c64aba6ba5abeb6045b943.js?body=1"></script>
+    <meta content="authenticity_token" name="csrf-param" />
+<meta content="2mu7eFlse0fW4w/sBBSJbWvYHTwm1Fue72chaxp+hUw=" name="csrf-token" />
+    <meta name="google-site-verification" content="8Nn_VV4g7o037RcHVg2eWI3VviODZJXOy2eNpZ97dl0" />
+  </head>
+  <body ng-app="gradstreet" ng-controller="KeenDataCollectorController">
+    
+    <nav class="nav">
+	<div class="logo">
+		<a>GRADSTREET</a>
+	</div>
+
+	<div class="contact" ng-controller="LoginController">
+		<a href=""><i class="ion-ios-pricetag-outline"></i> Pricing </a>
+		<a href=""><i class="ion-ios-chatbubble-outline"></i> Contact US </a>
+		<a href="" ng-click="toggleLoginBlockVisibility()"><i class="ion-ios-person-outline"></i> Login </a>
+		
+	</div>
+
+</nav>
+
+
+    <div class="mainPitch container1024">
+	<p class="subText">Relax, stress less, soar higher.</p>
+	<p class=mainText>Applying to US universities has never been simpler before.</p>
+</div>
+
+<div class="gradStreetServices container1024">
+	<div class="serviceBlock">
+		<div class="serviceHeading">
+			<p>University Statistics</p>
+		</div>
+		<div class="serviceImage">
+			<img src="https://farm8.staticflickr.com/7530/15987767582_676bb89d6d_o.png">
+		</div>
+		<div class="serviceDescription">
+			<p>GRE, TOEFL, tuition fees, cost of living, facilities for hundreds of universities at your fingertips.</p>
+		</div>
+		<div class="serviceButton">
+			<a href="" ng-click="recordClickEvent('Browse-Universities-1')">Browse Universities</a>
+		</div>
+	</div>
+
+	<div class="serviceBlock">
+		<div class="serviceHeading">
+			<p>University Selection</p>
+		</div>
+		<div class="serviceImage">
+			<img src="https://farm8.staticflickr.com/7513/15368814883_31890d7038_o.png">
+		</div>
+		<div class="serviceDescription">
+			<p>Selecting universities is hard. With our data science approach, it just takes a few seconds. Our smart computers know where you're most likely to get accepted.</p>
+		</div>
+		<div class="serviceButton">
+			<a href="">Evaluate your profile</a>
+		</div>
+	</div>
+
+	<div class="serviceBlock">
+		<div class="serviceHeading">
+			<p>Application Assistance</p>
+		</div>
+		<div class="serviceImage">
+			<img src="https://farm9.staticflickr.com/8656/15368815003_3b0d388189_o.png">
+		</div>
+		<div class="serviceDescription">
+			<p>Let us help you in preparing a perfect application. Whether you're stuck at filling an application or don't know what to write, call us right away.</p>
+		</div>
+		<div class="serviceButton">
+			<a href="">Get Started Now</a>
+		</div>
+	</div>
+
+	<div class="serviceBlock">
+		<div class="serviceHeading">
+			<p>Resume Builder</p>
+		</div>
+		<div class="serviceImage">
+			<img src="https://farm8.staticflickr.com/7496/15962666056_351e6af4d9_o.png">
+		</div>
+		<div class="serviceDescription">
+			<p>Create a professional resume that looks great with our resume builder tool. Finish in as little as five minutes and have something you can proudly present.</p>
+		</div>
+		<div class="serviceButton">
+			<a href="">Build Your Resume</a>
+		</div>
+	</div>
+
+	<div class="serviceBlock">
+		<div class="serviceHeading">
+			<p>SOP Writing</p>
+		</div>
+		<div class="serviceImage">
+			<img src="https://farm8.staticflickr.com/7517/15802706867_13c6b353d6_o.png">
+		</div>
+		<div class="serviceDescription">
+			<p>Say what you need to say in style. Have your SOP written professionally and smartly to perfectly get your message across. Your satisfaction is our utmost priority.</p>
+		</div>
+		<div class="serviceButton">
+			<a href="">Prepare Your SOP</a>
+		</div>
+	</div>
+
+</div>
+
+<div class="universitiesStats">
+	<div class="container1024">
+		<div class="mainText">
+			<p class="mainPitch">Get access to everything about universities.</p>
+			<p class="subText">Choosing a grad school is hard, gathering all the information is even harder. Students have to spend days to research and gather all the data. But GradStreet is there to your rescue.</p>
+		</div>
+
+		<div class="browseUniversitiesButton">
+			<a href="">Browse Universities</a>
+		</div>
+
+		<div class="universitiesStatBlocks">
+			<div class="item">
+				<div class="itemHeading">
+					<p>Industries Nearby</p>
+				</div>
+				<div class="itemImage">
+					<img src="https://farm8.staticflickr.com/7560/15801048358_3b58a5f33f_o.png">
+				</div>
+				<div class="itemDescription">
+					<p>Look at industries nearby and average salaries offered by them. We think it is one of the critical factors to consider.</p>
+				</div>
+			</div>
+
+			<div class="item">
+				<div class="itemHeading">
+					<p>Cost of Living</p>
+				</div>
+				<div class="itemImage">
+					<img src="https://farm8.staticflickr.com/7473/15368814973_2dd1aee4b5_o.png">
+				</div>
+				<div class="itemDescription">
+					<p>Worried about your overall expenses? We provide you with estimated cost of living around your grad school.</p>
+				</div>
+			</div>
+
+			<div class="item">
+				<div class="itemHeading">
+					<p>Lifestyle</p>
+				</div>
+				<div class="itemImage">
+					<img src="https://farm9.staticflickr.com/8624/15986454281_201eeb876f_o.png">
+				</div>
+				<div class="itemDescription">
+					<p>Look at popular destinations, restaurants, bars, libraries nearby. We understand and value your life outside academics.</p>
+				</div>
+			</div>
+
+			<div class="item">
+				<div class="itemHeading">
+					<p>Access to Communities</p>
+				</div>
+				<div class="itemImage">
+					<img src="https://farm8.staticflickr.com/7583/15801048308_07ef844d0a_o.png">
+				</div>
+				<div class="itemDescription">
+					<p>Connect to existing students, join their networks and get all your queries answered by them directly.</p>
+				</div>
+			</div>
+		</div>
+
+	</div>
+</div>
+
+<div class="dataScience">
+	<div class="container1024">
+		<div class="mainText">
+			<p class="mainPitch">Find out universities which are likely to accept you, in a few clicks.</p>
+			<p class="subText">The Data Scientists at GradStreet are constantly churning data to match your profile against the students who got accpeted to universities in past. Build your future with concrete DATA, not guesses.</p>
+			<div class="evaluateYourProfileButton">
+				<a href="">Evaluate Your Profile</a>
+			</div>
+			<div class="imageBlock">
+				<img src="https://farm8.staticflickr.com/7473/15801286640_63da42f1fe_o.png">
+				<p class="textLeft">Your Profile</p>
+				<p class="textCenter">Previous Candidates</p>
+				<p class="textRight">Your Results</p>
+			</div>
+			
+		</div>
+	</div>
+</div>
+
+
+<div class="ourTeam">
+	<p class="getInTouch">Look no further, get in touch with us right away. </p>
+	<div class="universitiesStatBlocks">
+			<div class="item">
+				<div class="itemHeading">
+					<p>Kannu Mehta, CEO</p>
+				</div>
+				<a href="https://www.linkedin.com/pub/kannu-mehta/16/a4/996">
+					<div class="itemImage" style="background-image : url('https://farm8.staticflickr.com/7506/15801571138_4e37740067_s.jpg')">
+					</div>
+				</a>
+				
+				<div class="itemDescription">
+					<p>@ Stanford University, IIT Roorkee</p>
+				</div>
+			</div>
+
+			<div class="item">
+				<div class="itemHeading">
+					<p>Ankit Jain, CTO</p>
+				</div>
+				<a href="https://www.linkedin.com/profile/view?id=175767138">
+					<div class="itemImage" style="background-image : url('https://farm9.staticflickr.com/8625/15803230107_d14f108130_s.jpg')">
+					</div>
+				</a>
+				<div class="itemDescription">
+					<p>@ IIT Guwahati</p>
+				</div>
+			</div>
+
+			<div class="item">
+				<div class="itemHeading">
+					<p>Jun-Won Suh, Advisor</p>
+				</div>
+				<a href="https://www.linkedin.com/profile/view?id=98233010">
+					<div class="itemImage" style="background-image : url('https://farm8.staticflickr.com/7478/15803230177_efddec49d2_s.jpg')">
+					</div>
+				</a>
+				<div class="itemDescription">
+					<p>@ University of Texas, Dallas</p>
+				</div>
+			</div>
+
+		</div>
+</div>
+
+    <div class="signupDialog" ng-show="signupFormVisible">
+        <div class="page_overlay">
+            <div class="form_container">
+              <p>We're giving access to limited users for the next two hours, register now to get an invite!</p>
+                <form name="signupForm" class="early_signup_form" ng-submit="recordSignUpEvent()">
+                    <input type="text" name="email" value="" placeholder="Email" name="email" class="email" ng-model="email"/>
+                    <input type="text" value="" placeholder="Mobile" name="mobile" class="mobile" ng-model="mobile"/>
+                    <p class="signupValidationError" ng-show="signupFailed">{{ signupValidationError }}</p>
+                    <p class="signupSuccess" ng-show="signupScucceded">Thank you for signing up!</p>
+                    <input class="button" type="submit" value="Get Invite">
+                </form>
+            </div>
+        </div>
+    </div>
+    
+  </body>
+</html>
+
+
