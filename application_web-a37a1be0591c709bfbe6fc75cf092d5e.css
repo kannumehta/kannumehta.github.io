@@ -1,0 +1,495 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/images/stylesheets, vendor/assets/images/stylesheets,
+ * or vendor/assets/images/stylesheets of plugins, if any, can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the top of the
+ * compiled file, but it's generally better to create a new file per style scope.
+ *
+
+ * require_tree ./web
+
+ */
+
+/* line 13, /Users/kannumehta/Desktop/GraduationStreet/graduationstreet/app/assets/stylesheets/web/base/reset.css.scss */
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strike, strong, sub, sup, tt, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  text-decoration: none;
+}
+
+/* line 5, /Users/kannumehta/Desktop/GraduationStreet/graduationstreet/app/assets/stylesheets/web/styles/header.css.scss */
+.nav {
+  height: 50px;
+  background-color: white;
+}
+/* line 10, /Users/kannumehta/Desktop/GraduationStreet/graduationstreet/app/assets/stylesheets/web/styles/header.css.scss */
+.nav a {
+  font-family: 'Raleway', sans-serif;
+  text-decoration: none;
+  display: inline-block;
+  padding: 5px;
+}
+/* line 17, /Users/kannumehta/Desktop/GraduationStreet/graduationstreet/app/assets/stylesheets/web/styles/header.css.scss */
+.nav div.logo {
+  float: left;
+}
+/* line 20, /Users/kannumehta/Desktop/GraduationStreet/graduationstreet/app/assets/stylesheets/web/styles/header.css.scss */
+.nav div.logo a {
+  margin-top: 5px;
+  margin-left: 5px;
+  font-size: 24px;
+  color: #358efb;
+  font-weight: 900;
+}
+/* line 28, /Users/kannumehta/Desktop/GraduationStreet/graduationstreet/app/assets/stylesheets/web/styles/header.css.scss */
+.nav div.contact {
+  float: right;
+}
+/* line 31, /Users/kannumehta/Desktop/GraduationStreet/graduationstreet/app/assets/stylesheets/web/styles/header.css.scss */
+.nav div.contact a {
+  margin-top: 5px;
+  margin-right: 5px;
+  font-weight: 400;
+  font-size: 14px;
+  color: #777777;
+}
+/* line 38, /Users/kannumehta/Desktop/GraduationStreet/graduationstreet/app/assets/stylesheets/web/styles/header.css.scss */
+.nav div.contact i {
+  font-size: 18px;
+}
+
+/* line 3, /Users/kannumehta/Desktop/GraduationStreet/graduationstreet/app/assets/stylesheets/web/styles/home.index.css.scss */
+div.mainPitch {
+  margin-top: 60px;
+  font-family: 'Raleway', sans-serif;
+  text-align: center;
+  line-height: 30px;
+}
+/* line 9, /Users/kannumehta/Desktop/GraduationStreet/graduationstreet/app/assets/stylesheets/web/styles/home.index.css.scss */
+div.mainPitch p.mainText {
+  font-size: 30px;
+  font-weight: 400;
+}
+/* line 14, /Users/kannumehta/Desktop/GraduationStreet/graduationstreet/app/assets/stylesheets/web/styles/home.index.css.scss */
+div.mainPitch p.subText {
+  font-size: 18px;
+  font-weight: 300;
+}
+
+/* line 20, /Users/kannumehta/Desktop/GraduationStreet/graduationstreet/app/assets/stylesheets/web/styles/home.index.css.scss */
+div.gradStreetServices {
+  text-align: center;
+}
+/* line 23, /Users/kannumehta/Desktop/GraduationStreet/graduationstreet/app/assets/stylesheets/web/styles/home.index.css.scss */
+div.gradStreetServices div.serviceBlock {
+  display: inline-block;
+  width: 250px;
+  margin-right: 50px;
+  margin-top: 100px;
+  text-align: center;
+  font-family: 'Raleway', sans-serif;
+}
+/* line 31, /Users/kannumehta/Desktop/GraduationStreet/graduationstreet/app/assets/stylesheets/web/styles/home.index.css.scss */
+div.gradStreetServices div.serviceBlock div.serviceHeading {
+  font-size: 18px;
+}
+/* line 35, /Users/kannumehta/Desktop/GraduationStreet/graduationstreet/app/assets/stylesheets/web/styles/home.index.css.scss */
+div.gradStreetServices div.serviceBlock div.serviceImage {
+  margin-top: 15px;
+  width: 100px;
+  height: 100px;
+  display: inline-block;
+}
+/* line 41, /Users/kannumehta/Desktop/GraduationStreet/graduationstreet/app/assets/stylesheets/web/styles/home.index.css.scss */
+div.gradStreetServices div.serviceBlock div.serviceImage img {
+  width: 100px;
+  height: 100px;
+}
+/* line 47, /Users/kannumehta/Desktop/GraduationStreet/graduationstreet/app/assets/stylesheets/web/styles/home.index.css.scss */
+div.gradStreetServices div.serviceBlock div.serviceDescription {
+  margin-top: 15px;
+  height: 90px;
+  font-size: 14px;
+  text-align: justify;
+}
+/* line 54, /Users/kannumehta/Desktop/GraduationStreet/graduationstreet/app/assets/stylesheets/web/styles/home.index.css.scss */
+div.gradStreetServices div.serviceBlock div.serviceButton {
+  width: 200px;
+  margin: auto;
+  margin-top: 15px;
+  font-size: 13px;
+  background-color: #358efb;
+  border: #2183fb;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+/* line 64, /Users/kannumehta/Desktop/GraduationStreet/graduationstreet/app/assets/stylesheets/web/styles/home.index.css.scss */
+div.gradStreetServices div.serviceBlock div.serviceButton a {
+  color: white;
+}
+
+/* line 73, /Users/kannumehta/Desktop/GraduationStreet/graduationstreet/app/assets/stylesheets/web/styles/home.index.css.scss */
+div.universitiesStats {
+  background-color: #0980c2;
+  margin-top: 70px;
+  padding-bottom: 70px;
+}
+/* line 78, /Users/kannumehta/Desktop/GraduationStreet/graduationstreet/app/assets/stylesheets/web/styles/home.index.css.scss */
+div.universitiesStats div.mainText {
+  text-align: center;
+}
+/* line 81, /Users/kannumehta/Desktop/GraduationStreet/graduationstreet/app/assets/stylesheets/web/styles/home.index.css.scss */
+div.universitiesStats div.mainText p.mainPitch {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 300;
+  font-size: 30px;
+  color: white;
+  padding-top: 50px;
+}
+/* line 89, /Users/kannumehta/Desktop/GraduationStreet/graduationstreet/app/assets/stylesheets/web/styles/home.index.css.scss */
+div.universitiesStats div.mainText p.subText {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 300;
+  font-size: 14px;
+  color: white;
+  width: 700px;
+  margin: auto;
+  margin-top: 30px;
+  line-height: 20px;
+}
+/* line 101, /Users/kannumehta/Desktop/GraduationStreet/graduationstreet/app/assets/stylesheets/web/styles/home.index.css.scss */
+div.universitiesStats div.browseUniversitiesButton {
+  margin: auto;
+  width: 150px;
+  margin-top: 30px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: #e2e6ed;
+  text-align: center;
+}
+/* line 110, /Users/kannumehta/Desktop/GraduationStreet/graduationstreet/app/assets/stylesheets/web/styles/home.index.css.scss */
+div.universitiesStats div.browseUniversitiesButton a {
+  font-family: 'Raleway', sans-serif;
+  font-size: 13px;
+  color: black;
+}
+/* line 117, /Users/kannumehta/Desktop/GraduationStreet/graduationstreet/app/assets/stylesheets/web/styles/home.index.css.scss */
+div.universitiesStats div.universitiesStatBlocks {
+  text-align: center;
+  margin-top: 70px;
+}
+/* line 121, /Users/kannumehta/Desktop/GraduationStreet/graduationstreet/app/assets/stylesheets/web/styles/home.index.css.scss */
+div.universitiesStats div.universitiesStatBlocks div.item {
+  display: inline-block;
+  width: 250px;
+  vertical-align: top;
+  border: 1px solid transparent;
+}
+/* line 127, /Users/kannumehta/Desktop/GraduationStreet/graduationstreet/app/assets/stylesheets/web/styles/home.index.css.scss */
+div.universitiesStats div.universitiesStatBlocks div.item div.itemImage {
+  margin: auto;
+  margin-top: 20px;
+  width: 80px;
+  height: 80px;
+  -webkit-border-radius: 40px;
+  -moz-border-radius: 40px;
+  border-radius: 40px;
+  background-color: #e2e6ed;
+}
+/* line 137, /Users/kannumehta/Desktop/GraduationStreet/graduationstreet/app/assets/stylesheets/web/styles/home.index.css.scss */
+div.universitiesStats div.universitiesStatBlocks div.item div.itemImage img {
+  margin: auto;
+  margin-top: 10px;
+  width: 60px;
+  height: 60px;
+}
+/* line 145, /Users/kannumehta/Desktop/GraduationStreet/graduationstreet/app/assets/stylesheets/web/styles/home.index.css.scss */
+div.universitiesStats div.universitiesStatBlocks div.item div.itemHeading {
+  text-align: center;
+  font-size: 20px;
+  font-family: 'Raleway', sans-serif;
+  margin-top: 20px;
+}
+/* line 151, /Users/kannumehta/Desktop/GraduationStreet/graduationstreet/app/assets/stylesheets/web/styles/home.index.css.scss */
+div.universitiesStats div.universitiesStatBlocks div.item div.itemHeading p {
+  color: white;
+}
+/* line 156, /Users/kannumehta/Desktop/GraduationStreet/graduationstreet/app/assets/stylesheets/web/styles/home.index.css.scss */
+div.universitiesStats div.universitiesStatBlocks div.item div.itemDescription {
+  font-size: 13px;
+  font-family: 'Raleway', sans-serif;
+  margin-top: 20px;
+  font-weight: 300;
+  padding-left: 15px;
+  padding-right: 15px;
+  height: 100px;
+  text-align: justify;
+}
+/* line 166, /Users/kannumehta/Desktop/GraduationStreet/graduationstreet/app/assets/stylesheets/web/styles/home.index.css.scss */
+div.universitiesStats div.universitiesStatBlocks div.item div.itemDescription p {
+  color: white;
+}
+/* line 172, /Users/kannumehta/Desktop/GraduationStreet/graduationstreet/app/assets/stylesheets/web/styles/home.index.css.scss */
+div.universitiesStats div.universitiesStatBlocks div.item:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.5);
+}
+
+/* line 180, /Users/kannumehta/Desktop/GraduationStreet/graduationstreet/app/assets/stylesheets/web/styles/home.index.css.scss */
+div.dataScience {
+  height: 650px;
+  text-align: center;
+}
+/* line 184, /Users/kannumehta/Desktop/GraduationStreet/graduationstreet/app/assets/stylesheets/web/styles/home.index.css.scss */
+div.dataScience div.mainText {
+  text-align: center;
+}
+/* line 187, /Users/kannumehta/Desktop/GraduationStreet/graduationstreet/app/assets/stylesheets/web/styles/home.index.css.scss */
+div.dataScience div.mainText p.mainPitch {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 300;
+  font-size: 30px;
+  color: black;
+  padding-top: 50px;
+}
+/* line 195, /Users/kannumehta/Desktop/GraduationStreet/graduationstreet/app/assets/stylesheets/web/styles/home.index.css.scss */
+div.dataScience div.mainText p.subText {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 300;
+  font-size: 14px;
+  color: black;
+  width: 700px;
+  margin: auto;
+  margin-top: 30px;
+  line-height: 20px;
+}
+/* line 206, /Users/kannumehta/Desktop/GraduationStreet/graduationstreet/app/assets/stylesheets/web/styles/home.index.css.scss */
+div.dataScience div.mainText div.evaluateYourProfileButton {
+  margin: auto;
+  width: 150px;
+  margin-top: 30px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: #358efb;
+  text-align: center;
+}
+/* line 215, /Users/kannumehta/Desktop/GraduationStreet/graduationstreet/app/assets/stylesheets/web/styles/home.index.css.scss */
+div.dataScience div.mainText div.evaluateYourProfileButton a {
+  font-family: 'Raleway', sans-serif;
+  font-size: 13px;
+  color: white;
+}
+/* line 225, /Users/kannumehta/Desktop/GraduationStreet/graduationstreet/app/assets/stylesheets/web/styles/home.index.css.scss */
+div.dataScience div.imageBlock {
+  margin-top: 30px;
+  position: relative;
+}
+/* line 229, /Users/kannumehta/Desktop/GraduationStreet/graduationstreet/app/assets/stylesheets/web/styles/home.index.css.scss */
+div.dataScience div.imageBlock p.textLeft {
+  width: 100px;
+  position: absolute;
+  top: 250px;
+  left: 165px;
+  font-family: 'Raleway', sans-serif;
+  font-size: 15px;
+}
+/* line 238, /Users/kannumehta/Desktop/GraduationStreet/graduationstreet/app/assets/stylesheets/web/styles/home.index.css.scss */
+div.dataScience div.imageBlock p.textCenter {
+  width: 100px;
+  position: absolute;
+  top: 215px;
+  left: 480px;
+  font-family: 'Raleway', sans-serif;
+  font-size: 15px;
+}
+/* line 247, /Users/kannumehta/Desktop/GraduationStreet/graduationstreet/app/assets/stylesheets/web/styles/home.index.css.scss */
+div.dataScience div.imageBlock p.textRight {
+  width: 100px;
+  position: absolute;
+  top: 250px;
+  left: 770px;
+  font-family: 'Raleway', sans-serif;
+  font-size: 15px;
+}
+
+/* line 259, /Users/kannumehta/Desktop/GraduationStreet/graduationstreet/app/assets/stylesheets/web/styles/home.index.css.scss */
+div.ourTeam {
+  height: 400px;
+  background-color: #0980c2;
+  text-align: center;
+}
+/* line 264, /Users/kannumehta/Desktop/GraduationStreet/graduationstreet/app/assets/stylesheets/web/styles/home.index.css.scss */
+div.ourTeam p.getInTouch {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 300;
+  font-size: 30px;
+  color: white;
+  padding-top: 50px;
+}
+/* line 272, /Users/kannumehta/Desktop/GraduationStreet/graduationstreet/app/assets/stylesheets/web/styles/home.index.css.scss */
+div.ourTeam div.universitiesStatBlocks {
+  text-align: center;
+  margin-top: 40px;
+}
+/* line 276, /Users/kannumehta/Desktop/GraduationStreet/graduationstreet/app/assets/stylesheets/web/styles/home.index.css.scss */
+div.ourTeam div.universitiesStatBlocks div.item {
+  display: inline-block;
+  width: 250px;
+  vertical-align: top;
+  border: 1px solid transparent;
+}
+/* line 282, /Users/kannumehta/Desktop/GraduationStreet/graduationstreet/app/assets/stylesheets/web/styles/home.index.css.scss */
+div.ourTeam div.universitiesStatBlocks div.item div.itemImage {
+  margin: auto;
+  margin-top: 20px;
+  width: 75px;
+  height: 75px;
+  -webkit-border-radius: 40px;
+  -moz-border-radius: 40px;
+  border-radius: 40px;
+  background-color: #e2e6ed;
+}
+/* line 292, /Users/kannumehta/Desktop/GraduationStreet/graduationstreet/app/assets/stylesheets/web/styles/home.index.css.scss */
+div.ourTeam div.universitiesStatBlocks div.item div.itemImage a {
+  width: 75px;
+  height: 75px;
+}
+/* line 299, /Users/kannumehta/Desktop/GraduationStreet/graduationstreet/app/assets/stylesheets/web/styles/home.index.css.scss */
+div.ourTeam div.universitiesStatBlocks div.item div.itemHeading {
+  text-align: center;
+  font-size: 18px;
+  font-family: 'Raleway', sans-serif;
+  margin-top: 20px;
+}
+/* line 305, /Users/kannumehta/Desktop/GraduationStreet/graduationstreet/app/assets/stylesheets/web/styles/home.index.css.scss */
+div.ourTeam div.universitiesStatBlocks div.item div.itemHeading p {
+  color: white;
+}
+/* line 310, /Users/kannumehta/Desktop/GraduationStreet/graduationstreet/app/assets/stylesheets/web/styles/home.index.css.scss */
+div.ourTeam div.universitiesStatBlocks div.item div.itemDescription {
+  font-size: 13px;
+  font-family: 'Raleway', sans-serif;
+  margin-top: 20px;
+  font-weight: 300;
+  padding-left: 15px;
+  padding-right: 15px;
+  height: 5px;
+  text-align: center;
+}
+/* line 320, /Users/kannumehta/Desktop/GraduationStreet/graduationstreet/app/assets/stylesheets/web/styles/home.index.css.scss */
+div.ourTeam div.universitiesStatBlocks div.item div.itemDescription p {
+  color: white;
+}
+
+/* line 331, /Users/kannumehta/Desktop/GraduationStreet/graduationstreet/app/assets/stylesheets/web/styles/home.index.css.scss */
+div.signupDialog {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  background-color: rgba(0, 0, 0, 0.8);
+}
+/* line 339, /Users/kannumehta/Desktop/GraduationStreet/graduationstreet/app/assets/stylesheets/web/styles/home.index.css.scss */
+div.signupDialog .form_container {
+  border: 1px solid #cccccc;
+  width: 600px;
+  padding: 30px;
+  margin: auto;
+  margin-top: 100px;
+  background-color: white;
+  text-align: center;
+}
+/* line 349, /Users/kannumehta/Desktop/GraduationStreet/graduationstreet/app/assets/stylesheets/web/styles/home.index.css.scss */
+div.signupDialog p {
+  font-family: 'Raleway', sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  padding-bottom: 30px;
+}
+/* line 356, /Users/kannumehta/Desktop/GraduationStreet/graduationstreet/app/assets/stylesheets/web/styles/home.index.css.scss */
+div.signupDialog .form_container form {
+  width: 100%;
+}
+/* line 359, /Users/kannumehta/Desktop/GraduationStreet/graduationstreet/app/assets/stylesheets/web/styles/home.index.css.scss */
+div.signupDialog .form_container form p.signupValidationError {
+  color: red;
+  padding-top: 20px;
+  font-family: 'Raleway', sans-serif;
+}
+/* line 365, /Users/kannumehta/Desktop/GraduationStreet/graduationstreet/app/assets/stylesheets/web/styles/home.index.css.scss */
+div.signupDialog .form_container form p.signupSuccess {
+  color: green;
+  padding-top: 20px;
+  font-family: 'Raleway', sans-serif;
+}
+/* line 372, /Users/kannumehta/Desktop/GraduationStreet/graduationstreet/app/assets/stylesheets/web/styles/home.index.css.scss */
+div.signupDialog form input {
+  display: block;
+  margin: auto;
+  width: 50%;
+  padding: 10px;
+  font-size: 13px;
+  border: 1px solid #cccccc;
+  box-shadow: 1px 1px 2px #cccccc;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+/* line 384, /Users/kannumehta/Desktop/GraduationStreet/graduationstreet/app/assets/stylesheets/web/styles/home.index.css.scss */
+div.signupDialog form input:nth-child(1) {
+  border-bottom: 0px solid #cccccc;
+}
+/* line 388, /Users/kannumehta/Desktop/GraduationStreet/graduationstreet/app/assets/stylesheets/web/styles/home.index.css.scss */
+div.signupDialog input.button {
+  display: block;
+  margin: auto;
+  width: 50%;
+  text-align: center;
+  font-size: 13px;
+  padding: 10px;
+  border: 1px solid #2183fb;
+  background: #358efb;
+  padding-top: 13px;
+  padding-bottom: 13px;
+  color: #ffffff;
+  margin-top: 30px;
+}
+
+/* line 3, /Users/kannumehta/Desktop/GraduationStreet/graduationstreet/app/assets/stylesheets/web/styles/login.css.scss */
+.loginBlock {
+  width: 500px;
+  height: 275px;
+  background-color: #e1e8ef;
+  position: absolute;
+  top: 40px;
+  right: 0px;
+  z-index: 100;
+}
+
+/* line 8, /Users/kannumehta/Desktop/GraduationStreet/graduationstreet/app/assets/stylesheets/web/main.css.scss */
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+/* line 10, /Users/kannumehta/Desktop/GraduationStreet/graduationstreet/app/assets/stylesheets/web/main.css.scss */
+.container1024 {
+  width: 1024px;
+  margin: auto;
+}
