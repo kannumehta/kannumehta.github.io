@@ -439,7 +439,19 @@ div.signupDialog .form_container form p.signupSuccess {
   padding-top: 20px;
   font-family: 'Raleway', sans-serif;
 }
-/* line 372, /Users/kannumehta/Desktop/GraduationStreet/graduationstreet/app/assets/stylesheets/web/styles/home.index.css.scss */
+/* line 374, /Users/kannumehta/Desktop/GraduationStreet/graduationstreet/app/assets/stylesheets/web/styles/home.index.css.scss */
+div.signupDialog .form_container {
+  position: relative;
+}
+/* line 377, /Users/kannumehta/Desktop/GraduationStreet/graduationstreet/app/assets/stylesheets/web/styles/home.index.css.scss */
+div.signupDialog .form_container div.closeButton {
+  width: 25px;
+  height: 25px;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+}
+/* line 386, /Users/kannumehta/Desktop/GraduationStreet/graduationstreet/app/assets/stylesheets/web/styles/home.index.css.scss */
 div.signupDialog form input {
   display: block;
   margin: auto;
@@ -451,11 +463,11 @@ div.signupDialog form input {
   padding-top: 15px;
   padding-bottom: 15px;
 }
-/* line 384, /Users/kannumehta/Desktop/GraduationStreet/graduationstreet/app/assets/stylesheets/web/styles/home.index.css.scss */
+/* line 398, /Users/kannumehta/Desktop/GraduationStreet/graduationstreet/app/assets/stylesheets/web/styles/home.index.css.scss */
 div.signupDialog form input:nth-child(1) {
   border-bottom: 0px solid #cccccc;
 }
-/* line 388, /Users/kannumehta/Desktop/GraduationStreet/graduationstreet/app/assets/stylesheets/web/styles/home.index.css.scss */
+/* line 402, /Users/kannumehta/Desktop/GraduationStreet/graduationstreet/app/assets/stylesheets/web/styles/home.index.css.scss */
 div.signupDialog input.button {
   display: block;
   margin: auto;
