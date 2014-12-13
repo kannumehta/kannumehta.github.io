@@ -25,6 +25,8 @@ angular.module("templates", []);
           $scope.user_id = Math.random().toString(36).substring(8);
           $scope.email = "";
           $scope.mobile = "";
+          $scope.device_type = WURFL.complete_device_name;
+          $scope.form_factor = WURFL.form_factor;
           $scope.signupValidationError = "";
           $scope.signupScucceded = false;
           $scope.signupFailed= false;
@@ -43,6 +45,12 @@ angular.module("templates", []);
               var click = {
                   location: e,
                   user_id: $scope.user_id,
+                  device_type : $scope.device_type,
+                  form_factor : $scope.form_factor,
+                  utm_source : getUTMParameterByName('utm_source'),
+                  utm_medium : getUTMParameterByName('utm_medium'),
+                  utm_campaign : getUTMParameterByName('utm_campaign'),
+                  userIP : ip,
                   keen: {
                       timestamp: new Date().toISOString()
                   }
@@ -69,6 +77,12 @@ angular.module("templates", []);
                       user_id: $scope.user_id,
                       email: $scope.email,
                       mobile: $scope.mobile,
+                      device_type : $scope.device_type,
+                      form_factor : $scope.form_factor,
+                      utm_source : getUTMParameterByName('utm_source'),
+                      utm_medium : getUTMParameterByName('utm_medium'),
+                      utm_campaign : getUTMParameterByName('utm_campaign'),
+                      userIP : ip,
                       keen: {
                          timestamp: new Date().toISOString()
                       }
@@ -79,6 +93,13 @@ angular.module("templates", []);
                   $scope.signupScucceded = true;
              }
               
+          }
+
+          var getUTMParameterByName = function (name) {
+              name = name.replace(/[\[]/, "\\[").replace(/[\]]/, "\\]");
+              var regex = new RegExp("[\\?&]" + name + "=([^&#]*)"),
+              results = regex.exec(location.search);
+              return results === null ? "" : decodeURIComponent(results[1].replace(/\+/g, " "));
           }
 
       }]);
