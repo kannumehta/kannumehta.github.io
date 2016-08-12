@@ -18,7 +18,7 @@
   });
 
   var event = {ip: json.ip};
-  client.addEvent("purchases", purchaseEvent, function(err, res){
+  client.addEvent("ip_addresses", event, function(err, res){
   if (err) {
     alert("Failed");
     // there was an error!
