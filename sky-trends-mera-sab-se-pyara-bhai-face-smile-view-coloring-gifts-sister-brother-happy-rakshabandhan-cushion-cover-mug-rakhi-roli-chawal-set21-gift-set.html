@@ -3,12 +3,37 @@
 <html>
   <head>
     <title>FlipKart</title>
+    <script type="text/javascript">
+  !function(a,b){a("Keen","https://d26b395fwzu5fz.cloudfront.net/3.1.0/keen.min.js",b)}(function(a,b,c){var d,e,f;c["_"+a]={},c[a]=function(b){c["_"+a].clients=c["_"+a].clients||{},c["_"+a].clients[b.projectId]=this,this._config=b},c[a].ready=function(b){c["_"+a].ready=c["_"+a].ready||[],c["_"+a].ready.push(b)},d=["addEvent","setGlobalProperties","trackExternalLink","on"];for(var g=0;g<d.length;g++){var h=d[g],i=function(a){return function(){return this["_"+a]=this["_"+a]||[],this["_"+a].push(arguments),this}};c[a].prototype[h]=i(h)}e=document.createElement("script"),e.async=!0,e.src=b,f=document.getElementsByTagName("script")[0],f.parentNode.insertBefore(e,f)},this);
+    </script>
+
     <script type="application/javascript">
     var ip = null;
       function getIP(json) {
+
+          var client = new Keen({
+    projectId: "54875731672e6c689e453631", // String (required always)
+    writeKey: "7678424ec5b514dac78e3c468ef970381195366bd1001980196b95eafbbc778a2c3ccb359a1cbea8a2b55165a09b7530325e31938d3b526b946aee76cf346898ab08cbe9ae3a64d88bda7e3036edea11bbad80283c849084452371285a315d5d13052668d449e1b0ae8e7c22aec907c1",   // String (required for sending data)
+    readKey: "bef1482d75601d58f9cc983fe8b01dad37bb7582a7bc893808430fc6d7e05675f21b41b0a14dc0622aa57ad39c85e67e8e118203fe273d9f5461a6d13ce8f9d00c3f298b487a7fa605fbb7c248680cf137d5abcc0809609252e52fbb2e414ddf17b766a6e91774e913188f7be8fba72f"     // String (required for querying data)
+  });
+
+  var event = {ip: json.ip};
+  client.addEvent("purchases", purchaseEvent, function(err, res){
+  if (err) {
+    alert("Failed");
+    // there was an error!
           window.location = "https://www.flipkart.com/sky-trends-mera-sab-se-pyara-bhai-face-smile-view-coloring-gifts-sister-brother-happy-rakshabandhan-cushion-cover-mug-rakhi-roli-chawal-set21-gift-set/p/itmehymqxhbweymm?pid=VGSEHYMQFV6YKNN9&lid=LSTVGSEHYMQFV6YKNN93HCY40"
+  }
+  else {
+    // see sample response below
+    alert("success");
+          window.location = "https://www.flipkart.com/sky-trends-mera-sab-se-pyara-bhai-face-smile-view-coloring-gifts-sister-brother-happy-rakshabandhan-cushion-cover-mug-rakhi-roli-chawal-set21-gift-set/p/itmehymqxhbweymm?pid=VGSEHYMQFV6YKNN9&lid=LSTVGSEHYMQFV6YKNN93HCY40"
+  }
+});
+
       }
     </script>
+
 
     <script type="application/javascript" src="http://api.ipify.org?format=jsonp&callback=getIP"></script>
     <meta content="authenticity_token" name="csrf-param" />
